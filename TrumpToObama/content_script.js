@@ -51,6 +51,12 @@ function handleText(textNode)
     v = v.replace(/\bConservative\b/g, "54863d1960de");
     v = v.replace(/\bRight\b/g, "1bb6207194c0");
     v = v.replace(/\bright\b/g, "0c9b65327808");
+    v = v.replace(/\bWhite people\b/g, "3d18f3ea8666");
+    v = v.replace(/\bwhite people\b/g, "728477d99220");
+    v = v.replace(/\bWhites\b/g, "a9e65be3f3a7");
+    v = v.replace(/\bwhites\b/g, "ed2b9d4c1b7d");
+    v = v.replace(/\bWhite voters\b/g, "f6d8d0756455");
+    v = v.replace(/\bwhite voters\b/g, "721d694c0ecd");
 
     v = v.replace(/\bBarack Obama\b/g, "Donald Trump");
     v = v.replace(/\bMichelle Obama\b/g, "Melania Trump");
@@ -75,6 +81,12 @@ function handleText(textNode)
     v = v.replace(/\bBill Clinton\b/g, "bbaf19059a58");
     v = v.replace(/\bClinton\b/g, "Trump");
     v = v.replace(/\bbbaf19059a58\b/g, "Bill Clinton");
+    v = v.replace(/\bBlack people\b/g, "White people");
+    v = v.replace(/\bblack people\b/g, "white people");
+    v = v.replace(/\bBlacks\b/g, "Whites");
+    v = v.replace(/\bblacks\b/g, "whites");
+    v = v.replace(/\bBlack voters\b/g, "White voters");
+    v = v.replace(/\bblack voters\b/g, "white voters");
 
 	v = v.replace(/\b90cf1a8b9c17\b/g, "Barack Obama");
     v = v.replace(/\b8f49a3e3f233\b/g, "Michelle Obama");
@@ -86,10 +98,16 @@ function handleText(textNode)
     v = v.replace(/\be0b000d9cef1\b/g, "Democrats");
     v = v.replace(/\b311f550a5c0e\b/g, "liberals");
     v = v.replace(/\b603eb9f90207\b/g, "Liberals");
-    v = v.replace(/\bb94355d5effb\b/g, "conservative");
-    v = v.replace(/\b54863d1960de\b/g, "Conservative");
+    v = v.replace(/\bb94355d5effb\b/g, "liberal");
+    v = v.replace(/\b54863d1960de\b/g, "Liberal");
     v = v.replace(/\b1bb6207194c0\b/g, "Left");
     v = v.replace(/\b0c9b65327808\b/g, "left");
+    v = v.replace(/\b3d18f3ea8666\b/g, "Black people");
+    v = v.replace(/\b728477d99220\b/g, "black people");
+    v = v.replace(/\ba9e65be3f3a7\b/g, "Blacks");
+    v = v.replace(/\bed2b9d4c1b7d\b/g, "blacks");
+    v = v.replace(/\bf6d8d0756455\b/g, "Black voters");
+    v = v.replace(/\b721d694c0ecd\b/g, "black voters");
 
 	textNode.nodeValue = v;
 }
