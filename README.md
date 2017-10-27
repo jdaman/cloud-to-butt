@@ -1,4 +1,4 @@
-cloud-to-butt
+trump-to-stan
 =============
 
 Chrome extension that replaces occurrences of 'Trump' with 'Stan'
