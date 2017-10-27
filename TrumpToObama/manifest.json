@@ -1,8 +1,8 @@
 {
 	"manifest_version": 2,
-	"name": "Trump to Stan",
+	"name": "Trump to Obama",
 	"version": "1.0",
-	"description": "Replaces the text 'Trump' with 'Stan'.",
+	"description": "Replaces the text 'Trump' with 'Obama'.",
 	"content_scripts": 
 	[
 		{
